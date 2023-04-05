@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="105.064768">
+    <testcase classname="verifying all filter options" name="filter options by name" time="51.793221">
+        <system-out><![CDATA[Given open product page.....................................................passed
+When apply filter by Name (A to Z) of the filter............................passed
+Then verify products are arranged accordingly...............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="verifying all filter options" name="filter options by name 2" time="20.959584">
+        <system-out><![CDATA[Given open product page.....................................................passed
+When apply filter by Name (Z to A) of the filter............................passed
+Then verify products are arranged accordingly...............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="verifying all filter options" name="filter options by name 3" time="8.476173">
+        <system-out><![CDATA[Given open product page.....................................................passed
+When apply filter by Price (low to high) of the filter......................passed
+Then verify products are arranged accordingly...............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="verifying all filter options" name="filter options by name 4" time="23.817423">
+        <system-out><![CDATA[Given open product page.....................................................passed
+When apply filter by Price (high to low) of the filter......................passed
+Then verify products are arranged accordingly...............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Select Product" name="Select with Product name" time="0.018367">
+        <system-out><![CDATA[Given login into application................................................passed
+When Click on product with Name as "Sauce Labs Backpack" on product page....passed
+Then product page should open...............................................passed
+And add it to cart..........................................................passed
+And verify product is added to cart.........................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
